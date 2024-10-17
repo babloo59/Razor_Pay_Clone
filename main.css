@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.movecompany{
+    animation: compscroll 10s linear 0s infinite ;
+}
+@keyframes compscroll {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+.movecompany2{
+    animation: cscroll 10s linear 0s infinite;
+}
+@keyframes cscroll {
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+} 
+
+/* .ctasection{
+    background: 100% 100%;
+} */
